@@ -36,7 +36,7 @@ public class BowlingGame {
             i++;
 
         }
-        System.out.println(Arrays.toString(socere));
+        //System.out.println(Arrays.toString(socere));
         int[] socere2 = new int[10];
         int j = socere2.length - 1;
 
@@ -64,7 +64,7 @@ public class BowlingGame {
         while (j < socere2.length) {
             sum += socere2[j++];
         }
-        System.out.println(Arrays.toString(socere2));
+        //System.out.println(Arrays.toString(socere2));
         return sum;
     }
 
